@@ -1,7 +1,7 @@
 # Analysis of the diamond dataset
 
 ## Introduction 
-The goal of this analysis was to understand what  determines the price of a diamond and to build a model to predict a possible price based on the diamond's features.
+The goal of this analysis was to understand what  determines the price of a diamond.
 
 ## Data set overview
 Dataset contains prices and other attributes of roughly 54,000 diamonds. Variables in the dataset are: 
@@ -56,8 +56,8 @@ Due to the predominant number of diamonds of low mass, the price mode of diamond
 The median price is 2401 usd. 
 ![price_dist](https://github.com/YanaOrf/Diamonds_analysis/blob/main/price_distribution.png)
 
-Median price per carat is 3496 usd
-Mode preis per carat is 2250 usd
+Median price per carat is 3496 usd.
+Mode preis per carat is 2250 usd.
 ![price_dist_carat](https://github.com/YanaOrf/Diamonds_analysis/blob/main/Price_per_carat_dis.png)
 
 

@@ -7,8 +7,10 @@ The goal of this analysis was to understand what  determines the price of a diam
 Dataset contains prices and other attributes of roughly 54,000 diamonds. Variables in the dataset are: 
 
 
-| price   | price in US dollars ($326–$18,823)                                                                |
+
+|           Variable Explanation                                                                              |
 |---------|---------------------------------------------------------------------------------------------------|
+| price   | price in US dollars ($326–$18,823)                                                                |
 | carat   | weight of the diamond (0.2–5.01)                                                                  |
 | cut     | quality of the cut (Fair, Good, Very Good, Premium, Ideal)                                        |
 | color   | diamond colour, from J (worst) to D (best)                                                        |

@@ -45,13 +45,13 @@ The following features were added to the dataset for further analysis:
 
 
 
-
+![price](https://github.com/YanaOrf/Diamonds_analysis/blob/main/carat_price.png)
 
 
 
 ## Predictive Modelling 
 
-image.png
+
 
 
 ## Conclusions

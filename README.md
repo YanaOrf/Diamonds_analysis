@@ -43,15 +43,34 @@ The following features were added to the dataset for further analysis:
 
 ## EDA
 
+This dataset contains mostly low and very low mass diamonds (moda - 0.3 carats), high quality diamond cutting,  and  average color and clarity. 
+![dist_ch](https://github.com/YanaOrf/Diamonds_analysis/blob/main/dist_characteristics.png)
+
+Average prices per carat (3,000 to 10,000) also tend to prevail. 
+Mode diamond_score 0.65
+Median diamond_score 0.97
+![dist_lables](https://github.com/YanaOrf/Diamonds_analysis/blob/main/dist.png)
+
+
+Due to the predominant number of diamonds of low mass, the price mode of diamond is quite low - 605 usd.
+The median price is 2401 usd. 
 ![price_dist](https://github.com/YanaOrf/Diamonds_analysis/blob/main/price_distribution.png)
 
+Median price per carat is 3496 usd
+Mode preis per carat is 2250 usd
 ![price_dist_carat](https://github.com/YanaOrf/Diamonds_analysis/blob/main/Price_per_carat_dis.png)
 
 
+
+The biggest impact on the price of a diamond and the price per carat is the number of carats. The more carats, the more the diamond is worth. 
 ![corr_matrix](https://github.com/YanaOrf/Diamonds_analysis/blob/main/corr_matrix.png)
 
+The carat weight of diamonds is also strongly positively correlated with the cost per carat.  In short, the higher the diamond’s carat weight, the higher the total price  need to be paied per carat to purchase the diamond. 
+But the graph clearly shows that some of the diamonds with small carat weight have a higher price per carat than diamonds with large carat weight.
 ![price_effect](https://github.com/YanaOrf/Diamonds_analysis/blob/main/carat_price.png)
 
+
+Сarat weight is not the only factor that influences a diamond’s price. The chart shows that large diamonds are cheaper per carat than small diamonds because their characteristics are significantly lower (The lower the Diamonds score, the better the quality)
 ![price_score](https://github.com/YanaOrf/Diamonds_analysis/blob/main/score_price.png)
 
 
@@ -69,7 +88,7 @@ The following features were added to the dataset for further analysis:
 
 a larger carat diamond will have a higher price than smaller carat diamonds of similar quality. But carat weight is not the only factor that influences a diamond’s price. In addition to its measurements along the diamond size chart, its carat weight and other features among the 4Cs will impact its price
 
-Diamond prices per carat increase as you jump up to higher weight categories. In short, the higher the diamond’s carat weight, the higher the total amount you’ll need to pay per carat to purchase the diamond.
+Diamond prices per carat increase as you jump up to higher weight categories.
 
 
 

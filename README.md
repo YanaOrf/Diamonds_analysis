@@ -8,7 +8,7 @@ Dataset contains prices and other attributes of roughly 54,000 diamonds. Variabl
 
 
 
-|         |  Variable Explanation                                                                              |
+|         |  Variable Explanation                                                                             |
 |---------|---------------------------------------------------------------------------------------------------|
 | price   | price in US dollars ($326–$18,823)                                                                |
 | carat   | weight of the diamond (0.2–5.01)                                                                  |
@@ -22,16 +22,33 @@ Dataset contains prices and other attributes of roughly 54,000 diamonds. Variabl
 | table   | width of top of diamond relative to widest point (43–95)                                          |
 
 
-## Data Wrangling
+## Data Preprocessing
+
+During data cleaning were deleted 146 duplicates. 
 
 
 
 ## EDA
 
 
+When writing the grades of a diamond using the AGS Scale, diamond Cut grade is first, then diamond Color, Clarity, then Carat Weight—in that order.
+
 ## Predictive Modelling 
 
+image.png
 
 
 ## Conclusions
+
+a larger carat diamond will have a higher price than smaller carat diamonds of similar quality. But carat weight is not the only factor that influences a diamond’s price. In addition to its measurements along the diamond size chart, its carat weight and other features among the 4Cs will impact its price
+
+Diamond prices per carat increase as you jump up to higher weight categories. In short, the higher the diamond’s carat weight, the higher the total amount you’ll need to pay per carat to purchase the diamond.
+
+
+
+diamonds are treated to improve their appearance. Treated diamonds can be beautiful and come with a lower price tag than untreated diamonds of similar color and clarity. 
+
+https://4cs.gia.edu/en-us/diamond-treatment/
+
+
 ### Ways to improve model

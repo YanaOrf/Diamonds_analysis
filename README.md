@@ -31,7 +31,7 @@ The IQR was used to detect  Outlires. But further analysis showed that the high 
 
 ### Feature engineering
 The following features were added to the dataset for further analysis:
-  
+* "Price per carat"   
 * "Cut score" - from 0 to 3 (best to worst)
 * "Color score" - from 0 to 3 (best to worst)
 * "Clarity score" - from 0 to 3 (best to worst)
@@ -43,9 +43,20 @@ The following features were added to the dataset for further analysis:
 
 ## EDA
 
+![price_dist](https://github.com/YanaOrf/Diamonds_analysis/blob/main/price_distribution.png)
+
+![price_dist_carat](https://github.com/YanaOrf/Diamonds_analysis/blob/main/Price_per_carat_dis.png)
 
 
-![price](https://github.com/YanaOrf/Diamonds_analysis/blob/main/carat_price.png)
+![corr_matrix](https://github.com/YanaOrf/Diamonds_analysis/blob/main/corr_matrix.png)
+
+![price_effect](https://github.com/YanaOrf/Diamonds_analysis/blob/main/carat_price.png)
+
+![price_score](https://github.com/YanaOrf/Diamonds_analysis/blob/main/score_price.png)
+
+
+
+
 
 
 

@@ -74,27 +74,20 @@ But the graph clearly shows that some of the diamonds with small carat weight ha
 ![price_score](https://github.com/YanaOrf/Diamonds_analysis/blob/main/score_price.png)
 
 
-![xs]()
+If we take a closer look at the characteristics and prices per carat within the carat quantity groups XS - XL we can see that in the groups XS-M there are diamonds of all characteristics (from the lowest to the highest).
 
-
-
-
-## Predictive Modelling 
-
-
-
+While in the high carat groups (4 carats and above) only diamonds with low color, cut and clarity are represented.
+Therefore, the lack of data on high quality large diamonds skews the price per carat in favor of even high quality, but low carat weight diamonds.
+![xs](https://github.com/YanaOrf/Diamonds_analysis/blob/main/price_features_carat.png)
+![s](https://github.com/YanaOrf/Diamonds_analysis/blob/main/s.png)
+![m](https://github.com/YanaOrf/Diamonds_analysis/blob/main/m.png)
+![l](https://github.com/YanaOrf/Diamonds_analysis/blob/main/l.png)
+![xl](https://github.com/YanaOrf/Diamonds_analysis/blob/main/XL.png)
 
 ## Conclusions
 
-a larger carat diamond will have a higher price than smaller carat diamonds of similar quality. But carat weight is not the only factor that influences a diamond’s price. In addition to its measurements along the diamond size chart, its carat weight and other features among the 4Cs will impact its price
+A larger carat diamond will have a higher price than smaller carat diamonds of similar quality. But carat weight is not the only factor that influences a diamond’s price. In addition, cut, color and clarity affect the price. 
 
-Diamond prices per carat increase as you jump up to higher weight categories.
-
-
-
-diamonds are treated to improve their appearance. Treated diamonds can be beautiful and come with a lower price tag than untreated diamonds of similar color and clarity. 
-
-https://4cs.gia.edu/en-us/diamond-treatment/
-
-
-### Ways to improve model
+Following information would help to improve the analysis: 
+* on diamond [treatment](https://4cs.gia.edu/en-us/diamond-treatment/). Treated diamonds can be beautiful and come with a lower price tag than untreated diamonds of similar color and clarity. 
+* on large, high-quality diamonds

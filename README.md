@@ -8,7 +8,7 @@ Dataset contains prices and other attributes of roughly 54,000 diamonds. Variabl
 
 
 
-|           Variable Explanation                                                                              |
+|         |  Variable Explanation                                                                              |
 |---------|---------------------------------------------------------------------------------------------------|
 | price   | price in US dollars ($326–$18,823)                                                                |
 | carat   | weight of the diamond (0.2–5.01)                                                                  |

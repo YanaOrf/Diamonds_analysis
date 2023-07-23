@@ -23,19 +23,31 @@ Dataset contains prices and other attributes of roughly 54,000 diamonds. Variabl
 
 
 ## Data Preprocessing
-
+### Data Cleaning
 During data cleaning were deleted 146 duplicates. 
 
 The analysis of statistical indicators showed a high standard deviation relative to the mean value in the columns price and price per carat. 
 The IQR was used to detect  Outlires. But further analysis showed that the high price variance was caused by a strong difference in diamond characteristics.  Therefore, I decided not to delete these values ​​so as not to lose the highest quality diamonds.
 
+### Feature engineering
+The following features were added to the dataset for further analysis:
+  
+* "Cut score" - from 0 to 3 (best to worst)
+* "Color score" - from 0 to 3 (best to worst)
+* "Clarity score" - from 0 to 3 (best to worst)
+* "Diamond score" - was added to give a quantitative evaluation of the qualitative characteristics (cut,color,clarity) of diamonds. Based on [AGS Diamond Grading System](https://www.americangemsociety.org/buying-diamonds-with-confidence/ags-diamond-grading-system/#:~:text=When%20writing%20the%20grades%20of,0%2F0–1.000%20carat.)  
+
+* "Carat label" - to group diamonds by number of carats  from small to large 
+* "Price label" - to group diamonds by price per carat from low to extra high
+
 
 ## EDA
 
-[](blob:vscode-webview%3A//03sce1co20h8fdm8tbpq3i17kkuiulosetl5qq30j12gg3k63gon/df198e48-7725-4ce8-9cb0-ccc1eacccdc8)
 
 
-When writing the grades of a diamond using the AGS Scale, diamond Cut grade is first, then diamond Color, Clarity, then Carat Weight—in that order.
+
+
+
 
 ## Predictive Modelling 
 

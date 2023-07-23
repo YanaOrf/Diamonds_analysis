@@ -74,7 +74,7 @@ But the graph clearly shows that some of the diamonds with small carat weight ha
 ![price_score](https://github.com/YanaOrf/Diamonds_analysis/blob/main/score_price.png)
 
 
-
+![xs]()
 
 
 

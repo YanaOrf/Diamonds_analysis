@@ -49,15 +49,18 @@ This dataset contains mostly low and very low mass diamonds (moda - 0.3 carats),
 Average prices per carat (3,000 to 10,000) also tend to prevail. 
 Mode diamond_score 0.65
 Median diamond_score 0.97
+
 ![dist_lables](https://github.com/YanaOrf/Diamonds_analysis/blob/main/dist.png)
 
 
 Due to the predominant number of diamonds of low mass, the price mode of diamond is quite low - 605 usd.
 The median price is 2401 usd. 
+
 ![price_dist](https://github.com/YanaOrf/Diamonds_analysis/blob/main/price_distribution.png)
 
 Median price per carat is 3496 usd.
 Mode preis per carat is 2250 usd.
+
 ![price_dist_carat](https://github.com/YanaOrf/Diamonds_analysis/blob/main/Price_per_carat_dis.png)
 
 

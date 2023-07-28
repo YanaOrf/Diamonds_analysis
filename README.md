@@ -93,4 +93,5 @@ A larger carat diamond will have a higher price than smaller carat diamonds of s
 
 Following information would help to improve the analysis: 
 * on diamond [treatment](https://4cs.gia.edu/en-us/diamond-treatment/). Treated diamonds can be beautiful and come with a lower price tag than untreated diamonds of similar color and clarity. 
+* on shape. Round diamonds tend to be priced higher than other shapes because of their incredible brilliance, market demand, and increased manufacturing costs.
 * on large, high-quality diamonds
